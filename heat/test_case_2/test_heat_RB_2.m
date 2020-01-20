@@ -101,8 +101,6 @@ disp('V2 done');
 
 V = [V1, V2];
 
-% V = POD(S,1e-16);
-
 % M = assemble_mass(fespace);
 % A = assemble_stiffness(mu, fespace);
 % Xh = M + A;
